@@ -29,6 +29,7 @@ public class HomeworkSelector {
         put(Homework.WEEK2_METHODS2, new Methods2());
         put(Homework.WEEK2_CLASSES, new Classes());
         put(Homework.WEEK2_RECAP_DEMO_CLASSES, new RecapDemoClasses());
+        put(Homework.WEEK2_CLASSES_WITH_ATTRIBUTES, new ClassesWithAttributes());
     }};
 
     public static Homework homeworkToSelect;
