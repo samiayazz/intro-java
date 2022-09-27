@@ -31,6 +31,7 @@ public class HomeworkSelector {
         put(Homework.WEEK2_RECAP_DEMO_CLASSES, new RecapDemoClasses());
         put(Homework.WEEK2_CLASSES_WITH_ATTRIBUTES, new ClassesWithAttributes());
         put(Homework.WEEK2_METHOD_OVERLOADING, new MethodOverloading());
+        put(Homework.WEEK2_INHERITANCE, new Inheritance());
     }};
 
     public static Homework homeworkToSelect;
