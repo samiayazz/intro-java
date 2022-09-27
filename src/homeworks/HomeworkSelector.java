@@ -2,6 +2,7 @@ package homeworks;
 
 import homeworks.enums.Homework;
 import homeworks.weeks.week1.*;
+import homeworks.weeks.week2.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,6 +25,7 @@ public class HomeworkSelector {
         put(Homework.WEEK1_MINI_PROJE_MUKEMMEL_SAYILAR, new MiniProjeMukemmelSayilar());
         put(Homework.WEEK1_MINI_PROJE_ARKADAS_SAYILAR, new MiniProjeArkadasSayilar());
         put(Homework.WEEK1_MINI_PROJE_SAYI_BULMA, new MiniProjeSayiBulma());
+        put(Homework.WEEK2_METHODS, new Methods());
     }};
 
     public static Homework homeworkToSelect;
