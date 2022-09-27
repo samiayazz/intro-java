@@ -21,4 +21,5 @@ public enum Homework {
 
     // 2nd Week
     WEEK2_METHODS,
+    WEEK2_METHODS2,
 }

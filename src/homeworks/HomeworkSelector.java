@@ -26,6 +26,7 @@ public class HomeworkSelector {
         put(Homework.WEEK1_MINI_PROJE_ARKADAS_SAYILAR, new MiniProjeArkadasSayilar());
         put(Homework.WEEK1_MINI_PROJE_SAYI_BULMA, new MiniProjeSayiBulma());
         put(Homework.WEEK2_METHODS, new Methods());
+        put(Homework.WEEK2_METHODS2, new Methods2());
     }};
 
     public static Homework homeworkToSelect;
