@@ -23,4 +23,5 @@ public enum Homework {
     WEEK2_METHODS,
     WEEK2_METHODS2,
     WEEK2_CLASSES,
+    WEEK2_RECAP_DEMO_CLASSES,
 }
