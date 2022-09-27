@@ -1,7 +1,7 @@
 package homeworks.enums;
 
 public enum Homework {
-    // 1. Week
+    // 1st Week
     WEEK1_HELLO_WORLD,
     WEEK1_VARIABLES,
     WEEK1_DATA_TYPES,
@@ -19,6 +19,6 @@ public enum Homework {
     WEEK1_MINI_PROJE_ARKADAS_SAYILAR,
     WEEK1_MINI_PROJE_SAYI_BULMA,
 
-    // 2. Week
+    // 2nd Week
     WEEK2_METHODS,
 }
