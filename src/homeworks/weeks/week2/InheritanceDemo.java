@@ -21,14 +21,11 @@ public class InheritanceDemo implements Homework {
     }
 
     private class OgretmenKrediManager extends BaseKrediManager {
-
     }
 
     private class TarimKrediManager extends BaseKrediManager {
-
     }
 
-    private class TarimKrediManager extends AskerKrediManager {
-
+    private class AskerKrediManager extends BaseKrediManager {
     }
 }
