@@ -4,13 +4,13 @@ import homeworks.weeks.Homework;
 
 public class ClassesWithAttributes implements Homework {
     public void executeHomework() {
-        Product product = new Product();
-        product.setId(1);
+        Product product = new Product(1, "Macbook Pro 16", "2022 16\" M1 Macbook Pro", 49999, 10, "Space Gray");
+        /*product.setId(1);
         product.setName("Macbook Pro 16");
         product.setDescription("2022 16\" M1 Macbook Pro");
         product.setPrice(49999);
         product.setStockAmount(10);
-        product.setColor("Space Gray");
+        product.setColor("Space Gray");*/
 
         ProductManager productManager = new ProductManager();
         productManager.add(product);
@@ -24,6 +24,20 @@ public class ClassesWithAttributes implements Homework {
     }
 
     private class Product {
+        public Product(int id, String name, String description, double price, int stockAmount, String color) {
+            this.id = id;
+            this.name = name;
+            this.description = description;
+            this.price = price;
+            this.stockAmount = stockAmount;
+            this.color = color;
+
+        }
+
+        public Product() {
+
+        }
+
         //attribute | field
         private int id;
         private String name;
