@@ -31,7 +31,7 @@ public class Overriding implements Homework {
         };
 
         for (BaseKrediManager krediManager : krediManagers) {
-            System.out.println(krediManager.hesapla(1000););
+            System.out.println(krediManager.hesapla(1000));
         }
     }
 }
