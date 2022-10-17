@@ -24,8 +24,20 @@ public class Interfaces implements Homework {
         }
     }
 
+    public class CustomerManager {
+        private CustomerDal customerDal;
+
+        public CustomerManager(CustomerDal customerDal) {
+            this.customerDal = customerDal;
+        }
+
+        public void add() {
+            customerDal.add();
+        }
+    }
+
     public void executeHomework() {
-        CustomerDal customerDal = new OracleCustomerDal();
-        customerDal.add();
+        CustomerManager customerManager = new CustomerManager(new OracleCustomerDal());
+        customerManager.add();
     }
 }
