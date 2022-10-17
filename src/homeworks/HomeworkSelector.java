@@ -38,6 +38,7 @@ public class HomeworkSelector {
 
         put(Homework.WEEK3_POLYMORPHISM_DEMO, new PolymorphismDemo());
         put(Homework.WEEK3_OVERRIDING, new Overriding());
+        put(Homework.WEEK3_ABSTRACT_CLASSES, new AbstractClasses());
     }};
 
     public static Homework homeworkToSelect;
