@@ -3,6 +3,7 @@ package homeworks;
 import homeworks.enums.Homework;
 import homeworks.weeks.week1.*;
 import homeworks.weeks.week2.*;
+import homeworks.weeks.week3.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,6 +26,7 @@ public class HomeworkSelector {
         put(Homework.WEEK1_MINI_PROJE_MUKEMMEL_SAYILAR, new MiniProjeMukemmelSayilar());
         put(Homework.WEEK1_MINI_PROJE_ARKADAS_SAYILAR, new MiniProjeArkadasSayilar());
         put(Homework.WEEK1_MINI_PROJE_SAYI_BULMA, new MiniProjeSayiBulma());
+
         put(Homework.WEEK2_METHODS, new Methods());
         put(Homework.WEEK2_METHODS2, new Methods2());
         put(Homework.WEEK2_CLASSES, new Classes());
@@ -33,6 +35,8 @@ public class HomeworkSelector {
         put(Homework.WEEK2_METHOD_OVERLOADING, new MethodOverloading());
         put(Homework.WEEK2_INHERITANCE, new Inheritance());
         put(Homework.WEEK2_INHERITANCE_DEMO, new InheritanceDemo());
+
+        put(Homework.WEEK3_POLYMORPHISM_DEMO, new PolymorphismDemo());
     }};
 
     public static Homework homeworkToSelect;

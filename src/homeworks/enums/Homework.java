@@ -28,4 +28,7 @@ public enum Homework {
     WEEK2_METHOD_OVERLOADING,
     WEEK2_INHERITANCE,
     WEEK2_INHERITANCE_DEMO,
+
+    // 3rd Week
+    WEEK3_POLYMORPHISM_DEMO,
 }
