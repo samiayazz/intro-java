@@ -36,4 +36,5 @@ public enum Homework {
     WEEK3_ABSTRACT_DEMO,
     WEEK3_INTERFACES,
     WEEK3_INTERFACE_DEMO,
+    WEEK3_STATIC_DEMO,
 }

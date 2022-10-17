@@ -42,6 +42,7 @@ public class HomeworkSelector {
         put(Homework.WEEK3_ABSTRACT_DEMO, new AbstractDemo());
         put(Homework.WEEK3_INTERFACES, new Interfaces());
         put(Homework.WEEK3_INTERFACE_DEMO, new InterfaceDemo());
+        put(Homework.WEEK3_STATIC_DEMO, new StaticDemo());
     }};
 
     public static Homework homeworkToSelect;
