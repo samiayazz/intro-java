@@ -1,4 +1,4 @@
-# Kodlama IO Ödevleri 2022 Java Kampı
+# Kodlama.IO Ödevleri 2022 Java Kampı
 
 ---
 
@@ -27,10 +27,11 @@
  
 ___
 
-## Klasör Yapısı:
+## Paket Yapısı:
 
 > [Ödevler](https://github.com/samiayazz/intro-java/tree/main/src/homeworks) / [Haftalar](https://github.com/samiayazz/intro-java/tree/main/src/homeworks/weeks)
 > - [1. Hafta](https://github.com/samiayazz/intro-java/tree/main/src/homeworks/weeks/week1)
 > - [2. Hafta](https://github.com/samiayazz/intro-java/tree/main/src/homeworks/weeks/week2)
+> - [3. Hafta](https://github.com/samiayazz/intro-java/tree/main/src/homeworks/weeks/week3)
 
 ---
