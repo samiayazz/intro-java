@@ -40,6 +40,7 @@ public class HomeworkSelector {
         put(Homework.WEEK3_OVERRIDING, new Overriding());
         put(Homework.WEEK3_ABSTRACT_CLASSES, new AbstractClasses());
         put(Homework.WEEK3_ABSTRACT_DEMO, new AbstractDemo());
+        put(Homework.WEEK3_INTERFACES, new Interfaces());
     }};
 
     public static Homework homeworkToSelect;
